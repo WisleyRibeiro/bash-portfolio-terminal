@@ -70,6 +70,12 @@ document.addEventListener("keypress", function(press){
             clearput();
         }
 
+        else if(input === "wget curriculo.pdf") {
+            url = "https://drive.google.com/file/d/1V-AKirLcyEGkjNAlvdGz00n2KZdJmjK7/view"
+            openurl();
+            clearput();
+        }
+
         else {
             none();
             invalid.style.display = "block";
