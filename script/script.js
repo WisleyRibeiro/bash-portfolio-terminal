@@ -35,7 +35,7 @@ document.addEventListener("keypress", function(press){
             clearput();
         }
 
-        else if(input === "wisley.py") {
+        else if(input === "wisley.py" || input == "about") {
             none();
             sup.style.display = "none";
             aboutme.style.display = "grid";
@@ -60,8 +60,14 @@ document.addEventListener("keypress", function(press){
             window.close();
         }
 
-        else if(input === "back") {
+        else if(input === "clear") {
             this.location.reload();
+        }
+
+        else if(input === "active default mode"){
+            url = "https://wisleyribeiro.github.io/Wisley-Ribeiro/"
+            openurl();
+            clearput();
         }
 
         else {
