@@ -65,13 +65,15 @@ document.addEventListener("keypress", function(press){
         }
 
         else if(input === "active default mode"){
-            url = "https://wisleyribeiro.github.io/Wisley-Ribeiro/"
+            url = "https://wisleyribeiro.github.io/Wisley-Ribeiro/";
+            none();
             openurl();
             clearput();
         }
 
         else if(input === "wget curriculo.pdf") {
-            url = "https://drive.google.com/file/d/1V-AKirLcyEGkjNAlvdGz00n2KZdJmjK7/view"
+            url = "https://drive.google.com/file/d/1V-AKirLcyEGkjNAlvdGz00n2KZdJmjK7/view";
+            none();
             openurl();
             clearput();
         }
